@@ -11,7 +11,6 @@ class WeatherViewController: UIViewController, UITextFieldDelegate {
     //initializing our struct
     var weatherManager = WeatherManager()
     
-    
     @IBAction func searchPressed(_ sender: UIButton) {
        
          searchTextField.endEditing(true)
